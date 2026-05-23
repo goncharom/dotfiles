@@ -115,3 +115,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
